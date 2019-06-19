@@ -53,6 +53,8 @@ namespace ELE400_DeteX_WebApp
 			app.UseStaticFiles();
 			app.UseCookiePolicy();
 
+            //Sigleton (fct read) main ici 
+
 			app.UseMvc();
 		}
 	}
