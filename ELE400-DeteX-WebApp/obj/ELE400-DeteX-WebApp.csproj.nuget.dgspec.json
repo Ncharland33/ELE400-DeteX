@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TheOtherOne\\Documents\\ETS\\ETE19\\ELE400\\Code\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj": {}
+    "C:\\Users\\frank\\OneDrive - ETS\\ELE400\\Software\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TheOtherOne\\Documents\\ETS\\ETE19\\ELE400\\Code\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj": {
+    "C:\\Users\\frank\\OneDrive - ETS\\ELE400\\Software\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TheOtherOne\\Documents\\ETS\\ETE19\\ELE400\\Code\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\frank\\OneDrive - ETS\\ELE400\\Software\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj",
         "projectName": "ELE400-DeteX-WebApp",
-        "projectPath": "C:\\Users\\TheOtherOne\\Documents\\ETS\\ETE19\\ELE400\\Code\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj",
-        "packagesPath": "C:\\Users\\TheOtherOne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TheOtherOne\\Documents\\ETS\\ETE19\\ELE400\\Code\\ELE400-DeteX\\ELE400-DeteX-WebApp\\obj\\",
+        "projectPath": "C:\\Users\\frank\\OneDrive - ETS\\ELE400\\Software\\ELE400-DeteX\\ELE400-DeteX-WebApp\\ELE400-DeteX-WebApp.csproj",
+        "packagesPath": "C:\\Users\\frank\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\frank\\OneDrive - ETS\\ELE400\\Software\\ELE400-DeteX\\ELE400-DeteX-WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\TheOtherOne\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\frank\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "Microsoft.AspNet.Mvc": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",
@@ -57,6 +61,10 @@
               "target": "Package",
               "version": "[2.2.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
             }
           },
           "imports": [

@@ -1,0 +1,79 @@
+﻿@page
+@model Test_FRModel
+@{
+    ViewData["Title"] = "Test";
+
+}
+
+
+<div class="jumbotron">
+    <p class="lead">Ceci est le test web du projet de DeteX.</p>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<div id="center">
+    <canvas id="canvas" width="600" height="400"></canvas>
+</div>
+
+<script>
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+    var myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: ["1", "2", "3", "4", "5"],
+            datasets: [{
+                label: 'Temp',
+                data: [25, 27, 30, 32, 15],
+                color: "#FFCCCC",
+            }, {
+                label: 'RH',
+                data: [75, 77, 80, 81, 60],
+                color: "#CCFFCC",
+            }]
+        }
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<div id="center">
+    <canvas id="canvas" width="600" height="400"></canvas>
+</div>
+
+<script>
+
+    var scatterChart = new Chart(ctx, {
+        type: 'scatter',
+        data: {
+            datasets: [{
+                label: 'Scatter Dataset',
+                data: [{
+                    x: -10,
+                    y: 0
+                }, {
+                    x: 0,
+                    y: 10
+                }, {
+                    x: 10,
+                    y: 5
+                }]
+            }]
+        },
+        options: {
+            scales: {
+                xAxes: [{
+                    type: 'linear',
+                    position: 'bottom'
+                }]
+            },
+            showLines: 'false'
+        }
+
+    });
+
+
+
+
+</script>

@@ -9,7 +9,7 @@ namespace ELE400_DeteX_WebApp.Pages
 {
 	public class IndexModel : PageModel
 	{
-		public void OnGet()
+        public void OnGet()
 		{
 
 		}
