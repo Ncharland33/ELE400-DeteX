@@ -17,10 +17,15 @@ https://dotnet.microsoft.com/download/archives
 Hub Information
 
 -Nom du IoT Hub --> ELE400-DeteX-hub
+
 -Nom test device --> MyDotnetDeviceTest
+
 -Chaîne de connexion --> HostName=ELE400-DeteX-hub.azure-devices.net;DeviceId=MyDotnetDeviceTest;SharedAccessKey=1cvGV0i7xYGvf4rO/xoVYoxnbtkIrwcfk+I+E2tvuio=
+
 -Point de terminaison compatible Event Hubs --> "sb://ihsuprodyqres016dednamespace.servicebus.windows.net/"
+
 -Chemin d'acces compatible Event Hubs --> "iothub-ehub-ele400-det-1786549-3d92aa99c8"
+
 -clé principale iothubowner --> "vLDlKjrDA5250Oir9v+Mu4VkOV72vJb4+YF7fyY0J7c="
 
 
