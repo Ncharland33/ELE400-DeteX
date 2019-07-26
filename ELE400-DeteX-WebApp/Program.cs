@@ -14,8 +14,10 @@ namespace ELE400_DeteX_WebApp
 	{
 		public static void Main(string[] args)
 		{
-			CreateWebHostBuilder(args).Build().Run();
-		}
+            AzureAPI api = new AzureAPI();
+            api.AuthorizeMatricisAPI();
+            CreateWebHostBuilder(args).Build().Run();
+        }
 
 		public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
 			WebHost.CreateDefaultBuilder(args)
