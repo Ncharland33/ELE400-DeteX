@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="test-Ben" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\École\\ÉTS\\ELE400_Méthodologie-de-Design-Génie-Électrique\\ELE400-DeteX\\ELE400-DeteX-WebApp\\obj\\Release\\netcoreapp2\.2\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>
