@@ -1,4 +1,5 @@
-﻿using RestSharp;
+﻿using Newtonsoft.Json;
+using RestSharp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,9 +25,9 @@ namespace ELE400_DeteX_WebApp
             request.AddParameter("undefined", "{\r\n\t\"email\": \"benoit.lemieux.1@ens.etsmtl.ca\",\r\n    \"password\": \"TeamDeteX@430\"\r\n}", ParameterType.RequestBody);
             IRestResponse response = client.Execute(request);
 
-            var AuthPacket = new ELE400_DeteX_WebApp.models.Authorization(response);
-
-            // TO DO: initialize the Authorization class and obtain token.
+            var AuthPacket = new ELE400_DeteX_WebApp.models.Authorization();
+            JsonConvert.PopulateObject(response.Content, AuthPacket);
+            var token = AuthPacket.token;
         }
 
         public async Task GetDataMatricis()
