@@ -15,7 +15,7 @@ namespace ELE400_DeteX_WebApp
 		public static void Main(string[] args)
 		{
             AzureAPI api = new AzureAPI();
-            api.AuthorizeMatricisAPI();
+            api.GetDataMatricis();
             CreateWebHostBuilder(args).Build().Run();
         }
 

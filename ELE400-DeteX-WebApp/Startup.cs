@@ -24,16 +24,6 @@ namespace ELE400_DeteX_WebApp
 		// This method gets called by the runtime. Use this method to add services to the container.
 		public void ConfigureServices(IServiceCollection services)
 		{
-        /*    services.AddHttpClient("MatricisLogin", c =>
-            {
-                c.BaseAddress = new Uri("");
-            });
-
-            services.AddHttpClient("MatricisData", c =>
-            {
-                c.BaseAddress = new Uri("");
-            });
-            */
             services.Configure<CookiePolicyOptions>(options =>
 			{
 				// This lambda determines whether user consent for non-essential cookies is needed for a given request.
