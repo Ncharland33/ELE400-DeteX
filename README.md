@@ -1,6 +1,11 @@
 # ELE400-DeteX
+Dependencies
+--------------------
+- RestSharp
+- Newtonsoft.Json
 
-
+Documentation
+--------------------
 Connect Device
 https://docs.microsoft.com/fr-ca/azure/iot-hub/quickstart-send-telemetry-dotnet#code-try-1
 
